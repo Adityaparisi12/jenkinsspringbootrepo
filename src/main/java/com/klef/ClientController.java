@@ -13,9 +13,9 @@ public class ClientController
   {
 	  return "CI/CD and Cloud Devops";
   }
-	@GetMapping("/demo")
-	public String demo()
+	@GetMapping("/test")
+	public String test()
 	{
-		return "Jenkins Demo";
+		return "Deploy Spring Boot using jenkins";
 	}
 }
